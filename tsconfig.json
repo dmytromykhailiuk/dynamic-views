@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2022",
+    "typeRoots": ["node_modules/@types"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "jsx": "react",
+    "declaration": true,
+    "inlineSources": true,
+    "rootDir": ".",
+    "esModuleInterop": true
+  },
+  "include": ["src/index.tsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@dmytromykhailiuk/react-dynamic-views",
+  "version": "1.0.0",
+  "description": "JSON powered / Dynamic views in React",
+  "files": [
+    "dist/src"
+  ],
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "compile": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmytromykhailiuk/react-dynamic-views.git"
+  },
+  "author": "Dmytro Mykhailiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmytromykhailiuk/react-dynamic-views/issues"
+  },
+  "homepage": "https://github.com/dmytromykhailiuk/react-dynamic-views#readme",
+  "dependencies": {
+    "@dmytromykhailiuk/reactive": "^1.1.0",
+    "@dmytromykhailiuk/reactive-react": "^1.1.0",
+    "react": "^18.3.1",
+    "react-hook-form": "^7.53.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.11",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  }
+}
